@@ -1,0 +1,358 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>[Your name here] | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hola, soy <span class="text-color-main name">Giovanni Cirrincione</span>
+          <br />
+          Back-end Developer
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Sobre mi</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Sobre mi</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/yo.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Soy un estudiante avanzado de Ingeniería en Sistemas en la Universidad Tecnológica Nacional (UTN)
+               con una fuerte pasión por el desarrollo de software. Mi enfoque principal se encuentra en el desarrollo
+                backend y diseño de la Base de datos, donde tengo experiencia en la creación de soluciones escalables utilizando patrones de diseño y de arquitectura
+                 para diversos proyectos personales y grupales con el uso de metodologias agiles.
+                 A lo largo de mi carrera académica, he adquirido habilidades sólidas en programación y resolución de problemas,
+                  lo que me permite enfrentar desafíos técnicos con confianza y creatividad.
+            </p>
+            <p class="about-wrapper__info-text">
+              Me apasiona explorar nuevas tecnologías y tendencias en el mundo del desarrollo de software, y estoy constantemente 
+              buscando oportunidades para mejorar mis habilidades y conocimientos. Soy un desarrollador comprometido
+              , capaz de trabajar tanto de forma independiente como en equipo, y estoy emocionado por la posibilidad de contribuir
+               al éxito de proyectos desafiantes en el futuro.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">Ver Resumen</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tech">
+      <div class="container">
+        <h2 class="section-title">Tecnologías que domino</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__images">
+            <img class="img-fluid" src="./assets/Java.png" alt="Technology 1">
+            <img class="img-fluid" src="./assets/springboot.png" alt="Technology 2">
+            <img class="img-fluid" src="./assets/mysql.png" alt="Technology 3">
+            <img class="img-fluid" src="./assets/postman.png" alt="Technology 4">
+            <img class="img-fluid" src="./assets/enterprise.png" alt="Technology 5">
+            <img class="img-fluid" src="./assets/github.png" alt="Technology 6">
+        
+            <!-- Agrega más imágenes según sea necesario -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tech">
+      <div class="container">
+        <h2 class="section-title">Tecnologías que manejo</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__images">
+            <img class="img-fluid" src="./assets/jira.png" alt="Technology 1">
+            <img class="img-fluid" src="./assets/html.png" alt="Technology 2">
+            <img class="img-fluid" src="./assets/css.png" alt="Technology 3">
+            <img class="img-fluid" src="./assets/auth0.png" alt="Technology 4">
+        
+            <!-- Agrega más imágenes según sea necesario -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tech">
+      <div class="container">
+        <h2 class="section-title">Tecnologías que me gustaria dominar</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__images">
+            <img class="img-fluid" src="./assets/aws.png" alt="Technology 1">
+            <img class="img-fluid" src="./assets/docker.png" alt="Technology 2">
+            <img class="img-fluid" src="./assets/kiber.png" alt="Technology 3">
+            <img class="img-fluid" src="./assets/node.png" alt="Technology 4">
+        
+            <!-- Agrega más imágenes según sea necesario -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Proyectos</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Restaurant</h3>
+              <p class="project-wrapper__text-info">
+                Se creo un sistema para venta y control de stock de comida, permite el control del estado de los
+                pedidos por parte del administrador, cada vez que se realizaba un 
+                pedido el sistema controlaba el stock de los ingredientes del mismo,
+                la seguridad del mismo fue aplicada con spring segurity. Este fue programado con Java springboot y se uso una 
+                base de datos mysql
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Mas aqui</a
+                >
+                
+                <a href="https://github.com/theit0/elbuensabor.git" target="_blank" class="cta-btn text-color-main"
+                  >Codigo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/SUENBA.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Base Ecommerce</h3>
+              <p class="project-wrapper__text-info">
+                Se creo una plantilla basica para el futuro desarrolo de ecommerce's, desarrollada en java springboot con mysql utilizando
+                arquitectura MVC y algunos patrones de diseño como el patro builder. 
+                Se uso una pasarela de pagos de MercadoPago, el manejo de usuarios se hace con auth0, al realizar el pedido
+                se le envia un mail al cliente con la informacion del pedido me arrojo un gran 
+                desafio el problema de los tiempos de espera, y como manejarlos. Se penso una configuracion por dia de los
+                tiempos de espera donde se pueda elegir un rango horario para cual configurarlos, toda superposicion de horarios
+                y dias se chequea antes de dar de alta o editar una configuracion
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Mas aqui</a
+                >
+                <a href="https://github.com/theit0/ecommerceBack.git" target="_blank" class="cta-btn text-color-main"
+                  >Codigo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/ecomerce (2).png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">giovannicirrincione22@gmail.com</p>
+          <a href="mailto:giovannicirrincione22@gmail.com" class="cta-btn cta-btn--resume">Enviar Mail</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+         
+          
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/giovanni-cirrincione-b23940247/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/giovannicirrincione"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+       
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
