@@ -30,20 +30,4 @@
 #tech .about-wrapper__images img {
   margin: 40px;
 }
-#tech .about-wrapper__images img {
-  max-width: 220px;
-}
 
-#tech .about-wrapper__images img {
-  max-width: 200px;
-}
-
-#tech .about-wrapper__images img {
-  max-width: 220px;
-}
-
-@media (max-width: 768px) {
-  .about-wrapper__images img {
-    max-width: 80px;
-  }
-}
